@@ -2,4 +2,8 @@
 <p>
   Showing of 'interpolate' filter:
   {{ 'Current version is v%VERSION%.' | interpolate }}
+  Showing my custom items:
+  <br>
+  View Item 1 is: {{ctrl.viewTitle}}
+  View Item 2 is: {{ctrl.viewTitle2[0] + ctrl.viewTitle2[1]}}
 </p>
